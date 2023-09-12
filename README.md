@@ -26,7 +26,8 @@ Pandas.get_dummies is used for one-hot encoding.
 Considering that using one-hot encoding will increase dimensionality and lead to multicollinearity, I don't use this method to encode features with too many different values. For instance, I use Target Encoding to pre-process Neighborhood data, a feature meaning physical locations within Ames city limits.
 
 ### (3) Normalizing numerical values:
-    I use scikit-learn to normalize data to have mean zero and standard deviation one. 
+
+I use scikit-learn to normalize data to have mean zero and standard deviation one. 
 
 
 Here I calculate the R square is 0.856621, and MSE is 0.071689 for train dataset.
